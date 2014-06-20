@@ -29,6 +29,12 @@ for item in itertools.combinations(AA_percents, 2):
 
     my_comb.append(item)
 
+print my_comb[0][0]
+print my_comb[0][1]
+
+print my_comb[1][0]
+print my_comb[1][1]
+'''
 for x,y in my_comb:
     print '***********************'
     print 'x datatype: '+ str(type(x))
@@ -36,7 +42,7 @@ for x,y in my_comb:
     print 'y datatype: '+ str(type(y))
     print 'y: ' + y
     print '***********************'
-
+'''
 #for x in my_comb:
     #for y in x:
         #print y
