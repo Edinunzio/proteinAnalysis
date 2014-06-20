@@ -49,3 +49,11 @@ for x in my_comb:
     for y in x:
         print y
 
+# when executing this via unix based command line, I found it easier to 
+# output this to a text file. that is how I created the included text files.
+# in a terminal do something like:
+# python protein_analysis.py > my_comb2.txt
+# this may take awhile, but in the same folder as your python script is located, 
+# will be an automatically created text file containing the output of the script.
+# please feel free to comment on here, github, or in email if you have any questions.
+
