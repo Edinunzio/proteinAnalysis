@@ -22,4 +22,3 @@ for item in itertools.combinations(AA_percents, 2):
 for x in my_comb:
     for y in x:
         print y
-
