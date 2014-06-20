@@ -15,11 +15,11 @@ for row in df.index:
     key = df.ix[row, 'viral_protein_name'] + ' , ' + df.ix[row, 'virus_species']
     value = ProteinAnalysis(df.ix[row, 'viral_protein_AA_seq']).get_amino_acids_percent()
     AA_percents[key] = pd.DataFrame.from_dict(value, orient='index')
-jarielle = []
+my_comb = []
 for item in itertools.combinations(AA_percents, 2):
      my_comb.append(item)
 #     print my_comb
 for x in my_comb:
     for y in x:
-        print type(y)
+        print y
 
